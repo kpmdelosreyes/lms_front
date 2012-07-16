@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>WebcafeLMS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/newscarousel.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head> 
+<body>
+<div id="wrap"> 
+	<!-- HEADER --> 
+	<div id="header">
+		<!-- header_inner -->
+		<div class="header_inner">
+			<h1 class="logo"><a href="#"><img src="images/logo.png" alt="WebcafeLMS - Beacause learning is Life..."/></a></h1>
+			<!-- header_content -->
+			<div class="header_content">
+				<!-- header_top -->
+				<div class="header_top">
+					<ul class="gnb">
+						<li><a href="#">Special Event</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li class="last"><a href="#">Login</a></li>
+					</ul>				
+				</div>
+				<!-- //header_top -->
+				<!-- mnb -->
+				<ul class="mnb">
+					<li class="current"><a href="#">English Course</a></li>
+					<li><a href="#">U-Learning</a></li>
+					<li><a href="#">Level Test</a></li>
+					<li><a href="#">Apply Class</a></li>
+					<li><a href="#">Forums</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+				<!-- //mnb -->
+			</div>
+			<!-- //header_content -->
+		</div>
+		<!-- //header_inner -->
+	</div>
+	<!-- //HEADER -->
+	<!-- CONTAINER -->
+	<div id="container">
+	<!-- container_wrapper -->
+	<div class="container_wrapper">
+	<!-- container_inner -->
+	<div class="container_inner">
+		<div class="heading">
+			<div class="heading_top">
+				<h2>[ Members ]</h2>
+				<p>My Page is your centralized location for managing courses, receiving notices, and much more.</p>		
+			</div>
+			<div class="heading_bottom">
+				<ul class="breadcrumb">			
+					<li><a href="#">Home</a></li>
+					<li class="first">My Page</li>
+				</ul>
+				<h2 class="title">My page</h2>				
+			</div>
+		</div>
+		<!-- aside col_1 -->
+		<div class="aside col_1">
+			<!-- loggedin -->
+			<div class="loggedin">
+				<h2 class="welcome">Have a good day, jmwoo!</h2>
+				<div class="points">
+					<p class="point"><span>100</span> Point</p>
+					<a href="#" class="private">Private</a>	
+					<a href="#" class="logout">Logout</a>
+				</div>
+				<div class="my_class">
+					<p>My Class</p>
+				</div>
+				<div class="login_apply">
+					<a href="#" class="apply_class"><span><img src="images/icon_apply_class.png"/>Apply for Class</span></a>
+					<a href="#" class="apply_test"><span><img src="images/icon_apply_test.png"/>Apply for Level Test</span></a>		
+				</div>
+			</div>
+			<!-- //loggedin -->
+			<!-- members -->
+			<div class="members">
+				<h2>Members</h2>
+				<ul>
+					<li class="current"><a href="#">My Page</a></li>
+					<li><a href="#">Modify Private Information</a></li>
+					<li><a href="#">Open Courses</a></li>
+					<li><a href="#">All Courses</a></li>
+					<li><a href="#">People</a></li>
+				</ul>
+			</div>
+			<!-- //members -->
+		</div>
+		<!-- //aside col_1 -->
+		<!-- CONTENT -->
+		<div id="content">
+			<div class="mypage_teacher_content mypage_container_style">
+				test
+			</div>
+		</div>
+		<!-- //CONTENT -->
+	</div>
+	<!-- //container_inner -->
+		<!-- aside col_2 -->
+		<div class="aside col_2">
+			<div class="aside_inner">
+				<!-- need_guide -->
+				<div class="need_guide">
+					<a href="#"><img src="images/img_need_guide.jpg" alt="Do you need a guide?"/></a>	
+				</div>		
+				<!-- //need_guide -->
+				<!-- quick_menu -->			
+				<div class="quick_menu">
+					<h2>Quick Menu</h2>
+					<ul class="rnb">
+						<li class="current"><a href="#">My Page</a></li>
+						<li><a href="#">Apply for Class</a></li>
+						<li><a href="#">Apply for Level Test</a></li>
+						<li><a href="#">U-Learning</a></li>
+						<li><a href="#">About Course</a></li>
+						<li><a href="#">About Class Materials</a></li>
+					</ul>
+				</div>
+				<!-- //quick_menu -->
+				<!-- banner_1 -->
+				<div class="banner_1">
+					<a href="#"><img src="images/img_banner_v1.jpg" alt="English is fun, We'll show you why"/></a>
+				</div>
+				<!-- //banner_1 -->
+				<!-- banner_2 -->
+				<div class="banner_2">
+					<a href="#" class="left_banner_2"><img src="images/img_banner_v2.jpg" alt="left banner 2"/></a>
+					<p>Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et.</p>
+				</div>
+				<!-- //banner_2 -->
+			</div>
+		</div>
+		<!-- //aside col_2 -->
+	</div>
+	<!-- //container_wrapper -->
+
+	</div>
+	<!-- //CONTAINER -->
+	<!-- FOOTER -->
+	<div id="footer">
+		<div class="footer_inner">
+			<div class="footer_content">
+				<p><a href="#" class="terms">Terms of Use</a> <a href="#" class="privacy_policy">Privacy</a></p>
+				<p class="copyright"><a href="#">WebcafeLMS</a> copyright &copy; 2012</p>				
+			</div>
+			<a href="#" class="footer_logo"><img src="images/logo_footer.png" alt="WebcafeLMS - Beacause learning is Life..."/></a>
+		</div>
+	</div>
+	<!-- //FOOTER -->
+</div> 
+</body>
+</html>

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+* {margin:0;padding:0;}
+html, body {height:100%;margin:0; padding:0;} 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, cite, code, img, small, strike, strong, em, sub, sup, tt, dd, dl, dt, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section {margin: 0;padding: 0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;text-align:left;text-indent:0;}
+ol, ul, li {list-style: none;}
+img,input {border:0;}
+
+body {color:#9c9c9c;font:12px Georgia,Arial,Tahoma,Verdana;text-align:center}
+
+/** BEGIN wrapper **/
+#wrap {position:relative;width:950px;;min-height:100%;margin:0 auto;text-align:left}
+
+/** BEGIN header **/
+#header {height:100px;border-bottom:3px solid #8ddfff}
+#header .gnb {float:right;margin-top:15px}
+#header .gnb p {float:left;color:#6a6a6a}
+#header .gnb a {display:inline-block;margin:5px 4px 0;color:#9c9c9c;text-decoration:none;font-size:0.9em;letter-spacing:-1px}
+#header .gnb .login {float:right;display:inline-block;width:58px;height:18px;margin:0 0 0 13px;padding:2px 0 0;background:url(../images/btn_01.gif) repeat-x 0 0;color:#fff;text-align:center}
+#header .navigation {clear:both}
+#header .navigation h1 {float:left;margin-top:2px}
+#header .navigation .mnb {float:right;margin-top:15px}
+#header .navigation .mnb li {float:left}
+#header .navigation .mnb li a {display:block;padding:5px 16px 8px 16px;color:#6a6a6a;text-decoration:none;font-style:italic;font-size:1.2em}
+#header .navigation .mnb li .current, #header .navigation .mnb li a:hover {background:url(../images/btn_03.gif) repeat-x 0 0;color:#fff;text-decoration:underline}
+
+/** BEGIN container **/
+#container {padding-bottom:80px;overflow:hidden;clear:both;padding-top:10px}
+#container h2 {margin-bottom:9px;padding:5px 0 5px 14px;border-bottom:1px solid #9c9c9c;color:#2cafe3;font-weight:bold}
+/** visual **/
+#container .visual {position:relative;width:467px;height:337px;margin-bottom:20px;}
+#container .visual ul {position:absolute;top:30px;right:20px;}
+#container .visual ul li {float:left;}
+#container .visual ul li a {display:block;width:15px;height:15px;background:url(../images/buttons.png) no-repeat 0 -48px;text-indent:-9999px;}
+#container .visual ul li a:hover {background-position:0 -63px;}
+#container .visual ul li .current {background-position:0 -78px;}
+#container .visual .btn_nav {position:absolute;top:147px;width:20px;height:42px;background:url(../images/buttons.png) no-repeat 0 0;text-indent:-9999px;}
+#container .visual .btn_prev {left:0;}
+#container .visual .btn_next {right:0;background-position:-21px 0;}
+/** aside **/
+#container .aside {float:left;width:305px;margin:22px 18px 0 0}
+#container .aside .login_form {margin-bottom:32px;padding:15px 10px;/**background-color:#ededed;**/background-color:#f1f1f1}
+#container .aside form .input_text,#container .aside form .input_password {width:269px;height:18px;margin-bottom:5px;padding-left:14px;border:1px solid #9c9c9c;color:#cecece;font-size:1em;font-family:Georgia}
+#container .aside form .checkbox {overflow:hidden;float:left;margin:10px 0 9px}
+#container .aside form .checkbox input {float:left;width:10px;height:10px;margin:0 7px 3px 0;border:1px solid #9c9c9c}
+#container .aside form .checkbox label {color:#6a6a6a;font-size:0.9em}
+#container .aside form .login {float:right;width:58px;margin:15px 2px 0 0;padding:1px 0 3px;background:url(../images/btn_02.gif) repeat-x 0 0;color:#fff;text-align:center;font-size:0.9em;font-family:Georgia;letter-spacing:-1px;cursor:pointer}
+#container .aside form a {margin:0 13px;color:#6a6a6a;text-decoration:none}
+#container .aside form p {clear:both;color:#6a6a6a}
+#container .aside form p .register {margin-left:0}
+#container .aside form p .password {margin-right:0}
+#container .aside form .btn_apply {display:inline-block;width:132px;margin:12px 0 0;padding:8px 0 10px;background:url(../images/btn_03.gif) repeat-x 0 0;color:#fff;text-align:center;word-spacing:-1px}
+#container .aside form .btn_applytest {margin-left:17px}
+#container .aside form .btn_result {background:url(../images/btn_01.gif) repeat-x;}
+#container .aside .sections,#container #content .subfeatured {position:relative;margin-bottom:28px;border:1px solid #9C9C9C;}
+#container .aside .sections .more {position:absolute;top:0;right:16px;padding:5px 10px 0 0;background:url(../images/icons.png) no-repeat right -305px;color:#9c9c9c;text-decoration:underline;font-style:italic;font-size:0.9em;letter-spacing:-1px}
+#container .aside .sections ul {overflow:hidden;clear:both;margin-left:15px}
+#container .aside .sections ul li {overflow:hidden;margin-bottom:6px;padding-left:8px;background:url(../images/icons.png) no-repeat 0 -514px}
+#container .aside .sections a {text-decoration:underline}
+#container .aside .notice ul li {padding-right:17px}
+#container .aside .notice ul li span {float:right}
+#container .aside .notice ul li .list {float:left}
+#container .aside .share {margin-bottom:20px}
+#container .aside .share h2 {padding-bottom:8px}
+#container .aside .share ul li {clear:both;margin-bottom:10px;padding-left:0;background:0}
+#container .aside .share ul li img {float:left;margin:1px 15px 0 0;border:1px solid #2cafe3}
+#container .aside .share ul li p {float:left;width:162px;margin-top:3px;line-height:1.5em}
+#container .aside .share ul li .continue {margin-top:2px;color:#2cafe3;font-style:italic}
+#container .aside .banner {margin-bottom:37px;border:0;}
+#container .aside .banner img {border:3px solid #cecece}
+#container .aside .poll h2 {margin-bottom:7px}
+#container .aside .poll form {padding:0 15px 10px;}
+#container .aside .poll form .question,#container .aside .poll form p {margin-bottom:10px;color:#9c9c9c;text-decoration:underline;line-height:1.4em}
+#container .aside .poll form p {text-decoration:none;}
+#container .aside .poll a {text-decoration:none;}
+#container .aside .poll form .btn_apply {width:90px;margin:6px 0 0 30px;padding:10px 0 8px;}
+#container .aside .poll form .radio {margin-left:50px;}
+#container .aside .poll form .radio p {clear:none;float:left;margin-right:69px;}
+#container .aside .poll form .radio input {margin-right:10px;}
+#container .aside .poll form .radio label {}
+/** content **/
+#container #content {float:left;width:467px;margin-bottom:10px}
+#container #content .subfeatured {float:left;width:222px;margin:27px 0 29px}
+#container #content .subfeatured .slider {position:absolute;top:8px;right:11px}
+#container #content .subfeatured .slider li {float:left}
+#container #content .subfeatured .slider li a {display:block;width:8px;height:8px;margin-right:3px;background:url(../images/icons.png) no-repeat 0 -100px;text-indent:-9999px}
+#container #content .subfeatured .slider li a:hover,#container #content .subfeatured .slider li .current {background:url(../images/icons.png) no-repeat 0 -208px}
+#container #content .subfeatured .info {margin:0 0 10px 15px}
+#container #content .subfeatured .info img {margin:1px 0 9px}
+#container #content .subfeatured .info p {color:#6a6a6a;font-style:italic;font-weight:bold}
+#container #content .subfeatured .info span {font-weight:normal}
+#container #content .class {margin-right:19px}
+#container #content .courses {clear:both;margin-bottom:10px}
+#container #content .courses ul li {overflow:hidden;clear:both}
+#container #content .courses ul li .category {display:block;padding:3px 0 2px 15px;color:#6a6a6a;text-decoration:none}
+#container #content .courses ul li .details {display:none;overflow:hidden;padding:7px 30px 10px 0;border:1px solid #bbb;}
+#container #content .courses ul li .details .title {color:#6a6a6a;font-style:italic;font-weight:bold;font-size:1.2em;text-decoration:none;}
+#container #content .courses ul li .details img {float:left;margin:3px 20px 0 15px;border:1px solid #2cafe3}
+#container #content .courses ul li .details p {margin-top:8px;line-height:1.4em}
+#container #content .courses ul .even .category {background-color:#cecece}
+#container #content .courses ul .odd .category {background-color:#bebebe}
+#container #content .courses ul .current .details {display:block}
+#container #content .courses ul .current .category {background-color:#3bb8e9;color:#fff}
+/** widgets **/
+#container .widgets {float:right;width:141px;padding-top:22px}
+#container .widgets .sections {margin-bottom:32px}
+#container .widgets .sections h2 {margin-bottom:6px;padding-bottom:7px}
+#container .widgets .sections ul {margin:10px 0;padding-left:6px}
+#container .widgets .sections ul li {margin-bottom:5px;padding-left:8px;background:url(../images/icons.png) no-repeat 0 -717px}
+#container .widgets .sections ul li a {color:#2cafe3;font-style:italic;text-decoration:underline}
+#container .widgets .menu {border:1px solid #9c9c9c;}
+#container .widgets .last {margin-bottom:20px}
+
+/** BEGIN footer **/
+#footer {overflow:hidden;clear:both;position:absolute;bottom:0;width:935px;height:47px;padding:19px 0 15px 15px;border-top:1px solid #8ddfff}
+#footer .logo {display:block;float:left;width:125px;height:30px;margin-right:21px;background:url(../images/icons.png) no-repeat 0 0;text-indent:-9999px}
+#footer .copyright {float:left}
+#footer .copyright p {margin-bottom:7px}

@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>WebcafeLMS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/newscarousel.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head> 
+<body>
+<div id="wrap"> 
+	<!-- HEADER --> 
+	<div id="header">
+		<!-- header_inner -->
+		<div class="header_inner">
+			<h1 class="logo"><a href="#"><img src="images/logo.png" alt="WebcafeLMS - Beacause learning is Life..."/></a></h1>
+			<!-- header_content -->
+			<div class="header_content">
+				<!-- header_top -->
+				<div class="header_top">
+					<ul class="gnb">
+						<li><a href="#">Special Event</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li class="last"><a href="#">Logout</a></li>
+					</ul>				
+				</div>
+				<!-- //header_top -->
+				<!-- mnb -->
+				<ul class="mnb">
+					<li class="current"><a href="#">English Course</a></li>
+					<li><a href="#">U-Learning</a></li>
+					<li><a href="#">Level Test</a></li>
+					<li><a href="#">Apply Class</a></li>
+					<li><a href="#">Forums</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+				<!-- //mnb -->
+			</div>
+			<!-- //header_content -->
+		</div>
+		<!-- //header_inner -->
+	</div>
+	<!-- //HEADER -->
+	<!-- CONTAINER -->
+	<div id="container">
+	<!-- container_wrapper -->
+	<div class="container_wrapper">
+	<!-- container_inner -->
+	<div class="container_inner">
+	<!-- aside col_1 -->
+	<div class="aside col_1">
+		<!-- loggedin -->
+		<div class="loggedin">
+			<h2 class="welcome">Have a good day, jmwoo!</h2>
+			<div class="points">
+				<p class="point"><span>100</span> Point</p>
+				<a href="#" class="private btn_default">Private</a>	
+				<a href="#" class="logout btn_default">Logout</a>
+			</div>
+			<div class="my_class">
+				<p>My Class</p>
+			</div>
+			<div class="login_apply">
+				<a href="#" class="apply_class btn_darkgray"><span><img src="images/icon_apply_class.png"/>Apply for Class</span></a>
+				<a href="#" class="apply_test btn_darkgray"><span><img src="images/icon_apply_test.png"/>Apply for Level Test</span></a>	
+			</div>
+		</div>
+		<!-- //loggedin -->
+		<!-- notice -->
+		<div class="notice">
+			<h2>Notice</h2>
+			<div class="notice_list">
+				<ul class="notices">
+					<li><a href="#">Notice #1</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #2</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #3</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #4</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #5</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #6</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #7</a><span class="date"> 2012-12-12</span></li>
+					<li><a href="#">Notice #8</a><span class="date"> 2012-12-12</span></li>
+				</ul>			
+			</div>
+			<div id="scroll"> <a href="#" id="notice-prev" class="jbutton"></a> <a href="#" id="notice-next" class="jbutton"></a> </div>
+		</div>
+		<!-- //notice -->
+		<!-- share_experience -->
+		<div class="share_experience">
+			<h2>Share Your Experience</h2>
+			<div class="experience_inner">
+				<img src="images/img_experience.jpg" alt="student"/>
+				<div class="experience">
+					<p>"tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor..."</p>					
+				</div>
+			</div>
+			<a href="#" class="more btn_default btn_type_1">More</a>
+		</div>
+		<!-- //share_experience -->
+		<!-- english_game -->
+		<div class="english_game">
+			<h2>English Game</h2>
+			<div class="english_game_slider">
+				<ul>
+					<li>
+						<a href="#"><img src="images/spellingbeeThumb.jpg" alt="Speeling Bee Game"/></a>
+						<div class="game_info">
+							<p class="title"><a href="#">Game 1</a></p>
+							<p>Look at the image and then spell the word as best you can</p>
+						</div>
+					</li>
+					<li>
+						<a href="#"><img src="images/spellingbeeThumb.jpg" alt="Speeling Bee Game"/></a>
+						<div class="game_info">
+							<p class="title"><a href="#">game 2</a></p>
+							<p>Look at the image and then spell the word as best you can</p>
+						</div>					
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="prev_game">prev</a>
+			<a href="#" class="next_game">next</a>	
+		</div>
+		<!-- //english_game -->
+		<div class="online_poll">
+			<h2>Online Poll</h2>
+			<p>What do you think about this site?</p>
+			<form action="#" method="post">
+				<ul>
+					<li><input type="radio" name="poll" id="poll_1" value="1" /> <label for="poll_1">Excellent</label></li>
+					<li><input type="radio" name="poll" id="poll_2" value="2" /> <label for="poll_2">Good</label></li>
+					<li><input type="radio" name="poll" id="poll_3" value="3" /> <label for="poll_3">Average</label></li>
+					<li><input type="radio" name="poll" id="poll_4" value="4" /> <label for="poll_4">Need Improvemnt</label></li>
+				</ul>
+				<input type="submit" value="vote" name="poll_vote" id="poll_vote"class="btn_default"/>
+			</form>
+		</div>
+		<!-- online_poll -->
+	</div>
+	<!-- //aside col_1 -->
+	<!-- CONTENT -->
+	<div id="content">
+		<!-- visual -->
+		<div class="visual">
+			<ul class="slider">
+				<li><a href="#"><img src="images/img_visual_v1.jpg" alt="Education wherever you are..."/></a></li>
+				<li><a href="#"><img src="images/img_visual_v2.jpg" alt="Education beyond classrooms..."/></a></li>
+				<li><a href="#"><img src="images/img_visual_v3.jpg" alt="Online Education, you will love it"/></a></li>
+			</ul>
+			<div id="buttons">
+				<a href="#" class="prev">prev</a>
+				<a href="#" class="next">next</a>
+			</div>
+		</div>
+		<!-- //visual -->
+		<!-- popular_wrap -->
+		<div class="popular_wrap">
+			<!-- popular_class -->
+			<div class="popular_class">
+				<h2>Popular Class</h2>
+				<ul class="pagination">
+					<li class="current"><a href="#" class="class_1"></a></li>
+					<li><a href="#" class="class_2"></a></li>
+					<li class="last"><a href="#" class="class_3"></a></li>
+				</ul>
+				<div class="popular_class_slider">
+					<ul>
+						<li>
+							<p>title of the class 1</p>
+							<img src="images/img_popular_class_v1.jpg" alt="class 1"/>
+						</li>
+						<li>
+							<p>title of the class 2</p>
+							<img src="images/img_popular_class_v2.jpg" alt="class 2"/>
+						</li>
+						<li>
+							<p>title of the class 3</p>
+							<img src="images/img_popular_class_v3.jpg" alt="class 3"/>
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<!-- //popular_class -->
+			<!-- popular_teacher -->
+			<div class="popular_teacher">
+				<h2>Popular Teacher</h2>
+				<ul class="pagination">
+					<li class="current"><a href="#" class="teacher_1"></a></li>
+					<li><a href="#" class="teacher_2"></a></li>
+					<li class="last"><a href="#" class="teacher_3"></a></li>
+				</ul>
+				<div class="popular_teacher_slider">
+					<ul>
+						<li>
+							<div class="teacher_info">
+								<p class="teacher_name">Samantha Jones</p>
+								<p class="teacher_description">"Nulla ipsum nunc, gravida tempus"</p>							
+							</div>
+							<img src="images/img_popular_teacher_v1.jpg" alt="Samantha Jones"/>
+						</li>
+						<li>
+							<div class="teacher_info">
+								<p class="teacher_name">Jane Doe"</p>
+								<p class="teacher_description">"Nulla ipsum nunc, gravida tempus"</p>							
+							</div>
+							<img src="images/img_popular_teacher_v2.jpg" alt="Jane Doe"/>
+						</li>
+						<li>
+							<div class="teacher_info">
+								<p class="teacher_name">Mary Smith</p>
+								<p class="teacher_description">"Nulla ipsum nunc, gravida tempus"</p>							
+							</div>
+							<img src="images/img_popular_teacher_v3.jpg" alt="Mary Smith"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //popular_teacher -->			
+		</div>
+		<!-- //popular_wrap -->
+		<!-- courses -->
+		<ul class="courses">
+			<li class="course_1">
+				<a href="#" class="course_accordion">Course 1</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v1.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+			<li class="course_2">
+				<a href="#" class="course_accordion">Course 2</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v2.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+			<li class="course_3">
+				<a href="#" class="course_accordion">Course 3</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v3.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+			<li class="course_4">
+				<a href="#" class="course_accordion">Course 4</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v4.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+			<li class="course_5">
+				<a href="#" class="course_accordion">Course 5</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v5.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+			<li class="course_6">
+				<a href="#" class="course_accordion">Course 6</a>
+				<div class="course">
+					<a href="#"><img src="images/icon_course_v6.png" alt="course"/></a>
+					<div class="course_info">
+						<p class="title"><a href="#">Title</a></p>
+						<p class="description">Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et viverra magna tempus vitae. Phasellus pharetra luctus felis. Nullam turpis ante, fermentum vitae fermentum vitae, tempus ut libero.</p>
+						<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius.</p>
+						<a href="#" class="read_more btn_default btn_type_2">read more</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<!-- //courses -->
+		</div>
+		<!-- //CONTENT -->
+	</div>
+	<!-- //container_inner -->
+		<!-- aside col_2 -->
+		<div class="aside col_2">
+			<div class="aside_inner">
+				<!-- need_guide -->
+				<div class="need_guide">
+					<a href="#"><img src="images/img_need_guide.jpg" alt="Do you need a guide?"/></a>	
+				</div>		
+				<!-- //need_guide -->
+				<!-- quick_menu -->			
+				<div class="quick_menu">
+					<h2>Quick Menu</h2>
+					<ul class="rnb">
+						<li class="current"><a href="#">My Page</a></li>
+						<li><a href="#">Apply for Class</a></li>
+						<li><a href="#">Apply for Level Test</a></li>
+						<li><a href="#">U-Learning</a></li>
+						<li><a href="#">About Course</a></li>
+						<li><a href="#">About Class Materials</a></li>
+					</ul>
+				</div>
+				<!-- //quick_menu -->
+				<!-- banner_1 -->
+				<div class="banner_1">
+					<a href="#"><img src="images/img_banner_v1.jpg" alt="English is fun, We'll show you why"/></a>
+				</div>
+				<!-- //banner_1 -->
+				<!-- banner_2 -->
+				<div class="banner_2">
+					<a href="#" class="left_banner_2"><img src="images/img_banner_v2.jpg" alt="left banner 2"/></a>
+					<p>Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et.</p>
+				</div>
+				<!-- //banner_2 -->
+			</div>
+		</div>
+		<!-- //aside col_2 -->
+	</div>
+	<!-- //container_wrapper -->
+	</div>
+	<!-- //CONTAINER -->
+	<!-- FOOTER -->
+	<div id="footer">
+		<div class="footer_inner">
+			<div class="footer_content">
+				<p><a href="#" class="terms">Terms of Use</a> <a href="#" class="privacy_policy">Privacy</a></p>
+				<p class="copyright"><a href="#">WebcafeLMS</a> copyright &copy; 2012</p>				
+			</div>
+			<a href="#" class="footer_logo"><img src="images/logo_footer.png" alt="WebcafeLMS - Beacause learning is Life..."/></a>
+		</div>
+	</div>
+	<!-- //FOOTER -->
+</div>
+
+<!-- POP_UP -->
+<div id="pop_wrap">
+	<div id="pop_header">
+		<img src="images/img_pop_up.jpg" alt="image"/>
+	</div>
+	<div id="pop_container">
+		<div id="pop_content">
+			<form method="post" action="#">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th><img src="images/text_pop_up_table_heading_v1.jpg" alt="text"/></th>
+						<th><img src="images/text_pop_up_table_heading_v2.jpg" alt="text"/></th>
+						<th><img src="images/text_pop_up_table_heading_v3.jpg" alt="text"/></th>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/text_pop_up_table_content_v1.jpg" alt="text"/>
+						</td>
+						<td>
+							<label>
+								<input type="radio" name="top_radio" id="top_radio_1" value="1" checked="checked" />
+								<img src="images/text_pop_up_table_content_v2.jpg" alt="text"/>
+							</label>
+							<label>
+								<input type="radio" name="top_radio" id="top_radio_2" value="1" />
+								<img src="images/text_pop_up_table_content_v3.jpg" alt="text"/>
+							</label>
+						</td>
+						<td class="last">
+							<img src="images/text_pop_up_table_content_v4.jpg" alt="text"/>
+							<img src="images/text_pop_up_table_content_v5.jpg" alt="text"/>
+							<input type="image" src="images/btn_pop_up_table_content_v1.jpg" alt="Submit" name="first_submit" id="first_submit" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/text_pop_up_table_content_v6.jpg" alt="text"/>
+						</td>
+						<td>
+							<label>
+								<input type="radio" name="bottom_radio" id="bottom_radio_1" value="1" checked="checked" />
+								<img src="images/text_pop_up_table_content_v7.jpg" alt="text"/>
+							</label>
+							<label>
+								<input type="radio" name="bottom_radio" id="bottom_radio_2" value="1" />
+								<img src="images/text_pop_up_table_content_v8.jpg" alt="text"/>
+							</label>
+						</td>
+						<td class="last">
+							<img src="images/text_pop_up_table_content_v9.jpg" alt="text"/>
+							<img src="images/text_pop_up_table_content_v10.jpg" alt="text"/>
+							<input type="image" src="images/btn_pop_up_table_content_v2.jpg" alt="Submit" name="second_submit" id="second_submit"/>
+						</td>
+					</tr>
+				</table>			
+			</form>
+		</div>
+	</div>
+	<div id="pop_footer">
+		<a href="#" class="dont_want btn_default btn_type_1">Don't want to see for today</a><a href="#" class="close btn_default btn_type_1">Close</a>
+	</div>
+</div>
+<!-- //POP_UP -->
+</body>
+</html>

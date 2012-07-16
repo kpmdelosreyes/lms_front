@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>WebcafeLMS</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/newscarousel.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head> 
+<body>
+<div id="wrap"> 
+	<!-- HEADER --> 
+	<div id="header">
+		<!-- header_inner -->
+		<div class="header_inner">
+			<h1 class="logo"><a href="#"><img src="images/logo.png" alt="WebcafeLMS - Beacause learning is Life..."/></a></h1>
+			<!-- header_content -->
+			<div class="header_content">
+				<!-- header_top -->
+				<div class="header_top">
+					<ul class="gnb">
+						<li><a href="#">Special Event</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li class="last"><a href="#">Login</a></li>
+					</ul>				
+				</div>
+				<!-- //header_top -->
+				<!-- mnb -->
+				<ul class="mnb">
+					<li><a href="#">English Course</a></li>
+					<li><a href="#">U-Learning</a></li>
+					<li><a href="#">Level Test</a></li>
+					<li class="current"><a href="#">Apply Class</a></li>
+					<li><a href="#">Forums</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+				<!-- //mnb -->
+			</div>
+			<!-- //header_content -->
+		</div>
+		<!-- //header_inner -->
+	</div>
+	<!-- //HEADER -->
+	<!-- CONTAINER -->
+	<div id="container">
+	<!-- container_wrapper -->
+	<div class="container_wrapper">
+	<!-- container_inner -->
+	<div class="container_inner">
+		<!-- aside col_1 -->
+		<div class="aside col_1">
+			<!-- login -->
+			<div class="login">
+				<h2>Login</h2>
+				<form action="#" method="post">
+					<div class="group_username">
+						<input type="text" name="login_usernname" id="login_username" />
+						<input type="checkbox" name="remember_username" id="remember_username" value="1"/> <label for="remember_username">Remember Username</label>
+					</div>
+					<div class="group_password">
+						<input type="password" name="login_password" id="login_password" />
+						<input type="checkbox" name="remember_password" id="remember_password" value="2"/> <label for="remember_password">Remember Password</label> 
+					</div>
+					<div class="group_submit">
+						<input type="submit" value="Login" id="login_submit"/> 
+						Forgot <a href="#" class="finding_id">ID</a> / <a href="#" class="finding_password">Password</a> <span class="register"><a href="#" >Register</a></span>					
+					</div>				
+				</form>
+				<div class="login_apply">
+					<a href="#" class="apply_class"><span><img src="images/icon_apply_class.png"/>Apply for Class</span></a>
+					<a href="#" class="apply_test"><span><img src="images/icon_apply_test.png"/>Apply for Level Test</span></a>		
+				</div>
+			</div>
+			<!-- //login -->
+			<!-- members -->
+			<div class="members lnb">
+				<h2>Apply Class</h2>
+				<ul>
+					<li><a href="#">About Applying for class</a></li>
+					<li class="current"><a href="#">Apply for Class</a></li>
+					<li><a href="#">Policy</a></li>
+				</ul>
+			</div>
+			<!-- //members -->
+		</div>
+		<!-- //aside col_1 -->
+		<!-- CONTENT -->
+		<div id="content">
+			<div class="heading">
+				<div class="heading_top">
+					<h2>[ Apply Class ]</h2>
+					<p>You can apply for class that you want.</p>		
+				</div>
+				<div class="heading_bottom">
+					<ul class="breadcrumb">			
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Apply Class</a></li>
+						<li class="first">Apply for Class</li>
+					</ul>
+					<h2 class="title">Apply for Class</h2>				
+				</div>
+				<!-- Apply for Class Content -->
+				<div class="applyclass_content class_detail class_detail_final">
+					<table class="form_table2">
+						<colgroup>
+							<col width="180" />
+							<col width="180" />
+							<col width="200" />
+							<col width="150" />
+						</colgroup>
+						<tr>
+							<td colspan="6"><p class="title">&gt; Final Result</p></td>
+						</tr>
+						<tr>
+							<th>Class Name</th>
+							<td colspan="5">My English (10 minutes)</td>
+						</tr>
+						<tr>
+							<th>Way of Payment</th>
+							<td colspan="5">Credit Card</td>
+						</tr>
+						<tr>
+							<th>Price</th>
+							<td colspan="5">33,000</td>
+						</tr>
+						<tr>
+							<td colspan="6" class="message">
+								<p>Thank you for applying the Class!</p>
+								<p>The schedule will be set after Admin generate schedule for you.<br/> You can check the status in your "My Page" menu.</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- Apply for Class Content -->
+			</div>
+		</div>
+		<!-- //CONTENT -->
+	</div>
+	<!-- //container_inner -->
+		<!-- aside col_2 -->
+		<div class="aside col_2">
+			<div class="aside_inner">
+				<!-- need_guide -->
+				<div class="need_guide">
+					<a href="#"><img src="images/img_need_guide.jpg" alt="Do you need a guide?"/></a>	
+				</div>		
+				<!-- //need_guide -->
+				<!-- quick_menu -->			
+				<div class="quick_menu">
+					<h2>Quick Menu</h2>
+					<ul class="rnb">
+						<li class="current"><a href="#">My Page</a></li>
+						<li><a href="#">Apply for Class</a></li>
+						<li><a href="#">Apply for Level Test</a></li>
+						<li><a href="#">U-Learning</a></li>
+						<li><a href="#">About Course</a></li>
+						<li><a href="#">About Class Materials</a></li>
+					</ul>
+				</div>
+				<!-- //quick_menu -->
+				<!-- banner_1 -->
+				<div class="banner_1">
+					<a href="#"><img src="images/img_banner_v1.jpg" alt="English is fun, We'll show you why"/></a>
+				</div>
+				<!-- //banner_1 -->
+				<!-- banner_2 -->
+				<div class="banner_2">
+					<a href="#" class="left_banner_2"><img src="images/img_banner_v2.jpg" alt="left banner 2"/></a>
+					<p>Nulla ipsum nunc, gravida tempus varius eu, eleifend non elit. Nam elementum iaculis lorem, et.</p>
+				</div>
+				<!-- //banner_2 -->
+			</div>
+		</div>
+		<!-- //aside col_2 -->
+	</div>
+	<!-- //container_wrapper -->
+	</div>
+	<!-- //CONTAINER -->
+	<!-- FOOTER -->
+	<div id="footer">
+		<div class="footer_inner">
+			<div class="footer_content">
+				<p><a href="#" class="terms">Terms of Use</a> <a href="#" class="privacy_policy">Privacy</a></p>
+				<p class="copyright"><a href="#">WebcafeLMS</a> copyright &copy; 2012</p>				
+			</div>
+			<a href="#" class="footer_logo"><img src="images/logo_footer.png" alt="WebcafeLMS - Beacause learning is Life..."/></a>
+		</div>
+	</div>
+	<!-- //FOOTER -->
+</div> 
+</body>
+</html>

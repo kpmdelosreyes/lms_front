@@ -1,0 +1,9 @@
+/** header **/
+#header .gnb a {letter-spacing:-1px}
+/** container **/
+#container .aside form .input_text,#container .aside form .input_password  {width:267px;height:16px;padding:2px 0 0 16px}
+#container .aside form .checkbox {margin-bottom:8px}
+#container .aside form .checkbox input {margin:0 5px 2px 0}
+#container .aside form .btn_apply {margin:12px 0 0;padding-top:8px}
+#container .aside form .btn_applytest {margin-left:17px}
+#container #content .courses ul li .category {padding:3px 0 2px 15px}

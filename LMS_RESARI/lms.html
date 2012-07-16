@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/lms.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript">
+	function course(selected) {
+     $('.course_description').each(function(index) {
+          if ($(this).attr("id") == selected) {
+               $(this).slideDown(200);
+          }
+          else {
+               $(this).slideUp(200);
+          }
+     });
+	}
+	</script>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>LMS E-Learning</title>
+</head>
+<body>
+	<div id="wrap">
+		<div id="container">
+			<!--  header-->
+			<div id="header">
+				<h1><a href="#"><img src="images/logo.png" alt="LMS E-Learning for Bright Minds"/></a></h1>
+				<p class="link"><a class="login_btn" href="#">login</a></p>
+				<ul class="gnb">
+					<li class="first"><a href="#">special event</a></li>
+					<li><a href="#">customer service</a></li>
+					<li><a href="#">site map</a></li>
+				</ul>
+				<ul class="mnb">
+					<li class="first"><a class="current" href="#">english course</a></li>
+					<li><a href="#">U-Learning</a></li>
+					<li><a href="#">level test</a></li>
+					<li><a href="#">apply class</a></li>
+					<li><a href="#">forums</a></li>
+					<li><a href="#">about us</a></li>
+				</ul>
+			</div>
+			<!--  //header-->
+			<div id="content">
+				<!-- visual-->
+				<div class="visual">
+					<img src="images/visual.png" alt="LMS E-learning Your Way" />
+					<p>LMS E-learning Your Way</p>
+					<ul class="selector">
+						<li class="first"><a class="current" href="#"><span class="hidden">Image 1</span></a></li>
+						<li><a href="#"><span class="hidden">Image 2</span></a></li>
+						<li><a href="#"><span class="hidden">Image 3</span></a></li>
+					</ul>
+				</div>
+				<!-- visual-->
+				<!-- a_side-->
+				<div class="a_side">
+					<!-- login-->
+					<div class="login">
+						<h2>log in</h2>
+						<form action="" method="get">
+							<input class="username_input" type="text" value="Enter your ID" />
+							<input  class="password_input" type="text" value="Enter your password" />
+							<input class="login_btn" type="submit" value="Login"/>
+						</form>
+						<form action="" method="post">
+							<div>
+								<label for="save_id"><input id="save_id" type="checkbox"/>Remember ID</label>
+							</div>
+							<div>
+								<label for="save_password"><input id="save_password" type="checkbox"/>Remember Password</label>
+							</div>
+						</form>
+						<ul>
+							<li class="first"><a href="#">register</a></li>
+							<li><a href="#">find id</a></li>
+							<li><a href="#">forgot password</a></li>
+						</ul>
+						<div class="login_btns">
+							<a class="class_apply_btn" href="#">apply for class</a>
+							<a class="test_apply_btn" href="#">apply for level test</a>
+						</div>
+					</div>
+					<!-- //login-->
+					<!-- notice-->
+					<div class="notice">
+						<h3 class="content_h3">notice</h3>
+						<ul>
+							<li class="first">
+								<p class="date"><a href="#">June 15,2012</a></p>
+								<p class="title">Notice</p>
+								<p class="notice_content">Lorem ipsum dolor sit amet..</p>
+							</li>
+							<li>
+								<p class="date"><a href="#">June 16,2012</a></p>
+								<p class="title">Notice</p>
+								<p class="notice_content">Lorem ipsum dolor sit amet..</p>
+							</li>
+						</ul>
+						<p class="link"><a class="more_btn" href="#">more</a></p>
+					</div>
+					<!-- //notice-->
+					<!-- share_experience-->
+					<div class="share_experience">
+						<h3 class="content_h3">Share Your Experience</h3>
+						<ul>
+							<li class="first">
+								<div class="experience">
+									<img src="images/experience1.png" alt="Share Your Experience"/>
+									<p>&#34;Teacher A is lorem ipsum dolor sit amet consectetur adipisicing elit&#34;</p>
+								</div>
+							</li>
+						</ul>
+						<p class="link"><a class="more_btn" href="#">more</a></p>
+					</div>
+					<!-- //share_experience-->
+					<!-- games-->
+					<div class="games">
+						<h3 class="content_h3">Game</h3>
+						<a href="#"><img src="images/game2.png" alt="Game Widget" /></a>
+					</div>
+					<!-- //games-->
+					<!-- poll-->
+					<div class="online_poll">
+						<h3 class="content_h3">online poll</h3>
+						<p class="poll_question">Who's the best class?</p>
+						<div class="graph_wrap">
+							<ul>
+								<li class="first">
+									<div class="bar_container">
+										<p>Class A</p>
+										<div class="bar_holder">
+											<div class="bar" style="width:100%">
+												<span class="hidden">bar</span>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="bar_container">
+										<p>Class B</p>
+										<div class="bar_holder">
+											<div class="bar" style="width:49%">
+												<span class="hidden">bar</span>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="bar_container">
+										<p>Class C</p>
+										<div class="bar_holder">
+											<div class="bar" style="width:75%;">
+												<span class="hidden">bar</span>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //poll-->
+				</div>
+				<!-- //a_side-->
+				<!-- center-->
+				<div class="center">
+					<!-- popular-->
+					<div class="popular">
+						<div class="students">
+							<h3>popular class</h3>
+							<div class="image_container1">
+								<img src="images/popular_class2.png" alt="LMS Popular Class" />
+								<p>class a</p>
+								<ul class="selector_popular">
+									<li><a class="current" href="#"><span class="hidden">Image 1</span></a></li>
+									<li><a href="#"><span class="hidden">Image 2</span></a></li>
+									<li><a href="#"><span class="hidden">Image 3</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="teachers">
+							<h3>popular teacher</h3>
+							<div class="image_container2">
+								<img src="images/popular_teacher2.png" alt="LMS Popular Teacher" />
+								<p>teacher a</p>
+								<ul class="selector_popular">
+									<li><a class="current" href="#"><span class="hidden">Image 1</span></a></li>
+									<li><a href="#"><span class="hidden">Image 2</span></a></li>
+									<li><a href="#"><span class="hidden">Image 3</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- //popular-->
+					<!-- courses-->
+					<div class="courses">
+						<h3>courses</h3>
+						<ul class="course_list">
+							<li class="first">
+								<div class="course_types">
+									<a href="javascript:course('course1');">Course 1</a>
+								</div>
+								<div class="course_description" id="course1">
+									<img src="images/course1.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+							<li>
+								<div class="course_types">
+									<a href="javascript:course('course2');">Course 2</a>
+								</div>
+								<div class="course_description" id="course2" style="display:none">
+									<img src="images/course2.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+							<li>
+								<div class="course_types">
+									<a href="javascript:course('course3');">Course 3</a>
+								</div>
+								<div class="course_description" id="course3" style="display:none">
+									<img src="images/course3.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+							<li>
+								<div class="course_types">
+									<a href="javascript:course('course4');">Course 4</a>
+								</div>
+								<div class="course_description" id="course4"style="display:none">
+									<img src="images/course4.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+							<li>
+								<div class="course_types">
+									<a href="javascript:course('course5');">Course 5</a>
+								</div>
+								<div class="course_description course5" id="course5" style="display:none">
+									<img src="images/course5.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+							<li>
+								<div class="course_types">
+									<a href="javascript:course('course6');">Course 6</a>
+								</div>
+								<div class="course_description" id="course6" style="display:none">
+									<img src="images/course6.png" alt="LMS Courses" />
+									<p class="course_name">Lorem Ipsum Course</p>
+									<p class="course_content">dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- //courses-->
+				</div>
+				<!-- //center-->
+				<!-- right-->
+				<div class="right">
+					<!-- guide-->
+					<div class="guide">
+						<img src="images/guide2.png" alt="Need a Guide" />
+						<a href="#">need a guide?</a>
+					</div>
+					<!-- //guide-->
+					<!-- quick_menu-->
+					<div class="quick_menu">
+						<h3>quick menu</h3>
+						<ul>
+							<li class="first"><a href="#">my page</a></li>
+							<li><a href="#">apply for class</a></li>
+							<li><a href="#">apply for level test</a></li>
+							<li><a href="#">U-Learning</a></li>
+							<li><a href="#">About Course</a></li>
+							<li><a href="#">About Class Materials</a></li>
+						</ul>
+					</div>
+					<!-- //quick_menu-->
+					<div class="ad_image1">
+						<img src="images/banner_ad1.png" alt="Advertisement 1" />
+					</div>
+					<div class="ad_image2">
+						<img src="images/banner_ad2.png" alt="Advertisment 2" />
+					</div>
+				</div>
+				<!-- //right-->
+			</div>
+		</div>
+	</div>
+	<div class="footer_wrap">
+		<div class="footer_container">
+			<div id="footer">
+				<img src="images/footer_logo.png" alt="LMS E-learning for Bright Minds"/>
+				<ul>
+					<li class="first"><a class="copyright" href="#">LMS E-learning&nbsp;&#169;&nbsp;2012</a></li>
+					<li><a class="privacy" href="#">privacy policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

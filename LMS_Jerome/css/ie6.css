@@ -1,0 +1,13 @@
+.btn  {letter-spacing:-1px}
+.btn_2  {letter-spacing:-1px;}
+
+
+.login label {display:inline-block;margin:0 0 0 10px;color:#7b7b7b;font-size:12px;font-family:Tahoma;vertical-align:middle}
+.login .holder {float:left;width:115px;margin:3px 0 0 6px;}
+.login .links {margin:25px 0 50px 0}
+
+#visual_wrap {width:100%;background: url(../images/visual_wrap_bg.jpg) no-repeat center 0}
+#visual {width:950px;margin:0 auto;padding:27px 0 0 0;overflow:hidden;background: url(../images/visual_bg.png) no-repeat 0 bottom;}
+#visual .slider {float:right}
+
+.aside .blog_list li a .date {float:right;position:relative;margin-top:-14px;cursor:pointer}

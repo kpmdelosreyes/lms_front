@@ -1,0 +1,8 @@
+.mypage_container_style {width:98%;margin:0 0 10px;padding:5px;display:inline-block;text-align:center;border:1px solid #ABADB3}
+.mypage_container_style .title{display:inline-block;width:98%;margin:0 0 10px 3px;padding:0;font:bold 14px/18px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;text-align:left}
+.mypage_container_style .today_date {font-size:12px;color:#898989}
+.mypage_teacher_content img {margin:0 10px 10px}
+.mypage_buddy_control {margin:0;padding:0;list-style:none;text-align:left}
+.mypage_buddy_control li{float:left;margin:0 10px 0 0;padding:0}
+.mypage_buddy_details {float:left;width:70%;margin:-10px 0 0;padding:0;text-align:left}
+.mypage_buddy_details p {line-height:16px}

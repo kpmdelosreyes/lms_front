@@ -1,0 +1,558 @@
+@charset "utf-8";
+
+body,input,textarea,select,button,table{font-family:arial,sans-serif;font-size:12px}
+body,html{padding:0;margin:0;text-align:center;background:#fff url(../images/main-pattern.png) repeat center top;color:#888;line-height:1}
+img,fieldset{border:0}
+a{cursor:pointer}
+
+h1, h2, h3, h4, h5, h6{margin:0;padding:0;color:#444}
+p a{text-decoration:none;color:#2f6665}
+p a:hover{text-decoration:underline}
+a{color:#444;text-decoration:none}
+a:hover{color:#fe8300;text-decoration:none}
+
+/* COMMON */
+.note{color:#da2b2b}
+
+.fl{float:left}
+.fr{float:right}
+
+/* lnb */
+.aside .lnb{margin:0 0 15px 0;padding:0;border:1px solid #e5e5e5}
+.aside .lnb h2{margin:0;padding:5px 0;border-bottom:1px solid #e5e5e5;background:#eaeaea;font:bold italic 16px/18px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;text-align:center}
+.aside .lnb ul{margin:0;padding:15px;list-style:none}
+.aside .lnb li{padding:4px 0 4px 18px;background:transparent url(../images/bu_plus_members.png) no-repeat 0 5px}
+.aside .lnb li.current{font-weight:bold}
+.aside .lnb li a{color:#444;text-decoration:none}
+.aside .lnb li a:hover{color:#fe8300}
+
+/* buttons */
+.btn_default{display:inline-block;height:21px;padding:0 10px;border:1px solid #ccc;line-height:21px;cursor:pointer;box-shadow:rgba(0, 0, 0, 0.296875) 0px 0px 2px 0px}
+.btn_type_1{background:#eaeaea}
+.btn_type_2{height:18px;line-height:18px;font-size:11px}
+input.btn_default{display:inline-block;height:23px;padding:0 10px;border:1px solid #ccc;line-height:23px;cursor:pointer;box-shadow:rgba(0, 0, 0, 0.296875) 0px 0px 2px 0px}
+input.btn_type_2{height:20px;line-height:20px;font-size:11px}
+
+.btn_darkgray, .btn_darkgray span, .btn_darkgray input{display:inline-block;height:32px;background-image:url(../images/button-gray.png);background-repeat:no-repeat;font-weight:bold;color:#dfdfdf;line-height:32px;border:0;text-align:center;cursor:pointer}
+.btn_darkgray{padding:0 0 0 7px;background-position:left top}
+.btn_darkgray span, .btn_darkgray input{padding:0 7px 0 0;width:206px;background-position:right bottom}
+
+a.btn_lightgray, a.btn_lightgray span{display:inline-block;height:32px;background-image:url(../images/button-lightgray.png);background-repeat:no-repeat;font-weight:bold;color:#5E5E5E;line-height:32px;text-align:center}
+a.btn_lightgray{padding:0 0 0 7px;background-position:left top}
+a.btn_lightgray span{padding:0 7px 0 0;width:206px;background-position:right bottom}
+
+/*table_1_css*/
+#content .table_1{width:100%;border:0;margin:5px 0 5px 0;text-align:center}
+#content table.table_1 thead{height:30px;margin:0;padding:0;background:url(../images/forum_bg.png) repeat-x}
+#content table.table_1 thead th{height:30px;margin:0;padding:0}
+#content table.table_1 thead th a{display:inline-block;color:#fff !important}
+#content table.table_1 thead th a:hover{color:#fe8300 !important}
+#content table.table_1 td{height:25px;margin:0;padding:3px 5px 3px 5px;border:1px solid #cecdcd;border-width:0 0 1px 1px}
+#content table.table_1 td.last{border-right:1px solid #cecdcd}
+
+/*table_2*/
+#content .table_2{width:100%;border:0;margin:5px 0 15px 0;}
+#content table.table_2 thead{height:30px;margin:0;padding:0;background:url(../images/forum_bg.png) repeat-x}
+#content table.table_2 thead th{height:30px;margin:0;padding:0 0 0 10px;font-weight:normal;color:#fff;}
+#content table.table_2 thead th a{display:inline-block;font-weight:bold;color:#fff !important}
+#content table.table_2 thead th a:hover{color:#fe8300 !important}
+#content table.table_2 td{border:0;padding:15px 0 0 0}
+#content table.table_2 td p{margin:0;padding:0;line-height:18px}
+#content table.table_2 td.table_2_content{padding:5px;border-top:1px solid #cecdcd;border-right:1px solid #cecdcd;border-bottom:1px solid #cecdcd;border-left:1px solid #cecdcd;text-align:left}
+#content table.table_2 td.table_2_content p {margin-left:10px;}
+#content table.table_2 td.table_2_content .title {margin:10px 0 3px 0;font-weight:bold;}
+
+/*table_search*/
+#content .table_search{display:inline-block;width:650px;margin:0;padding:5px 0 5px 5px;background:#eaeaea}
+#content .table_search span{display:inline-block;float:left;margin:0 0 0 5px;padding:5px 0 0 0;font-size:12px;font-weight:bold;color:#444}
+#content .table_search form{display:inline-block;float:left;margin:0 0 0 10px}
+#content .table_search form input.search_bar{float:left;width:210px;margin:0;padding:4px 3px 2px 3px;border:1px solid #abadb3;font:11px "Arial",sans-serif}
+#content .table_search form input.search_bar:focus{outline:0}
+#content .table_search form a.btn_default{margin:1px 0 0 5px}
+
+/*pagination*/
+#content .pagination{display:inline-block;width:655px;margin:10px 0 0 0;padding:0;text-align:center}
+#content .pagination ul{display:inline-block;width:160px;margin:0 auto;padding:0;list-style:none}
+#content .pagination ul li{display:inline;float:left;margin:0 0 0 5px;padding:0}
+#content .pagination ul li.first{margin:0}
+#content .pagination ul li a{display:block;padding:0 3px;border:1px solid #ccc;font-size:11px !important;line-height:13px;box-shadow:#000 0px 0px 3px 0}
+#content .pagination ul li a:hover{background-color:#eaeaea}
+#content .pagination ul li a.current{background-color:#eaeaea !important}
+#content .pagination ul li a.inactive{color:#c9c7c7 !important}
+#content .pagination ul li a.inactive:hover{color:#c9c7c7 !important;background-color:#fff !important;cursor:default}
+
+/*my page head title*/
+.mypage_head_title{width:100%;display:inline-block;padding-bottom:10px;margin-bottom:10px;border-bottom:2px solid #808080;font:bold italic 14px/16px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;clear:both;overflow:hidden}
+
+/*comment*/
+.comment{display:block;margin:10px 0 20px 0 !important;border:1px solid #808080;border-bottom:none;clear:both}
+.comment .info{display:block;margin:0 !important;padding:10px 0 10px 5px !important;border-bottom:1px solid #808080}
+
+/*input boxes and textareas*/
+.input_style{margin:2px 0;padding:3px 3px 2px;border:1px solid #ABADB3;font:11px/13px Arial, Sans-serif}
+.input_field{width:180px}
+.input_field2{width:83px}
+.input_field3{width:210px}
+.input_field4{width:95%}
+.no_focus{outline:0}
+.text_style{padding:3px 3px 2px;border:1px solid #ABADB3;font:12px/14px Arial, Sans-serif;resize:none;overflow:auto}
+.text_field{width:300px;height:220px;margin:5px 0 10px}
+.text_field2{width:95%;height:220px;margin:5px 0 10px}
+.text_field3{width:75%;height:100px}
+
+/* select box */
+.select_type1{width:185px;border:1px solid #ABADB3}
+.select_type2{width:50px;border:1px solid #ABADB3}
+.select_type3{width:98%;border:1px solid #ABADB3}
+
+/* thumbnail */
+.img_50{width:50px}
+.img_80{width:80px}
+.img_150{width:150px}
+
+/* form table */
+#content .form_content{width:100%;text-align:center}
+#content .form_content .title{display:inline-block;width:100%;margin:0 0 0 3px;padding:0;font:bold 14px/18px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;text-align:left}
+#content .form_table{width:98%;margin:5px 0;text-align:left;display:inline-block}
+#content .form_table .required{width:98%;text-align:right}
+#content .form_table .neccesary{margin:0 3px 0 2px;color:#7c2222}
+#content .form_table .error_msg{font-size:9px;color:#7c2222;display:inline-block}
+#content .form_table a.btn_darkgray input{display:inline-block;position:relative;height:32px;margin:0;padding:0 7px 0 0;background:url(../images/button-gray.png) right bottom no-repeat;font-weight:bold;color:#dfdfdf;border:0;line-height:32px;cursor:pointer}
+
+#content .form_table2{width:100%;margin-top:20px;border-left:1px solid #EAEAEA}
+#content .form_table2 tr th{padding:0 0 0 5px;background:#EAEAEA}
+#content .form_table2 tr td{padding:5px 0 5px 5px;vertical-align:middle;border-top:1px solid #EAEAEA;border-right:1px solid #EAEAEA}
+#content .form_table2 tr .last{padding-right:10px;border-bottom:1px solid #EAEAEA}
+#content .form_table2 a.read_more{ border:1px solid #CCCCCC;box-shadow:0 0 2px 0 rgba(0, 0, 0, 0.298);display:inline-block;margin:15px 0 0;padding:5px 10px}
+#content .form_table2 label{display:inline-block;padding-bottom:2px}
+#content .form_table2 .input1{width:80px;margin-right:10px}
+#content .form_table2 .input2{width:30px}
+#content .form_table2 .holder{display:inline;margin-right:10px}
+#content .form_table2 .holder2{display:block;clear:both}
+#content .form_table2 .holder3{display:block;margin:5px 0 0 20px;clear:both}
+#content .form_table2 .holder2 a{color:#FE8300;text-decoration:none}
+#content .form_table2 .holder2 a:hover{text-decoration:underline}
+
+/* accordion on LNB*/
+.aside ul.accordion{margin:0;padding:15px;list-style:none}
+.aside ul.accordion ul{display:none;margin:0;padding:10px 0 0 0;list-style:none}
+.aside ul.accordion li.current ul{display:block}
+.aside ul.accordion li.current a.accordion_trigger{font-weight:normal}
+.aside ul.accordion li li{background:transparent url(../images/arrow.png) no-repeat 0 5px}
+.aside ul.accordion li ul a{font-weight:normal}
+.aside ul.accordion li ul li.current a{font-weight:bold}
+
+/* WRAP */
+#wrap{min-width:1141px}
+
+/* HEADER */
+#header{height:190px;background:transparent url(../images/header.png) repeat-x left bottom}
+.header_inner{display:inline-block;position:relative;width:950px;margin:0 auto;padding:0 191px 0 0;text-align:left}
+#header h1.logo{margin:0;padding:26px 0 0 0;float:left}
+.header_content{float:right;position:relative;width:650px;text-align:left}
+.header_top{overflow:hidden;padding:20px 0 50px 0}
+
+/* gnb */
+.gnb{display:inline-block;float:right;margin:0;padding:0;list-style:none}
+.gnb li{float:left;padding:0 10px;height:12px;border-right:1px solid #848484}
+.gnb li a{font:10px/12px Arial,sans-serif;color:#848484;text-decoration:none}
+.gnb li a:hover{color:#fff}
+.gnb li.last{padding-right:0;border:none}
+
+/* mnb */
+.mnb{clear:left;float:right;margin:0;padding:0 15px;background:transparent url(../images/bg_transparent.png) repeat left top;font-family:Arial, sans-serif;text-align:center;list-style:none}
+.mnb li{display:block;float:left;margin:0;padding:0}
+.mnb li a{display:block;padding:10px 20px;color:#fff;text-decoration:none;line-height:1.3em}
+.mnb li.current a,.mnb li a:hover{color:#fe8300}
+
+/* CONTAINER */
+#container{position:relative;top:-40px;width:1141px;margin:0 auto;text-align:left;z-index:2}
+.container_inner{display:inline-block;float:left;width:950px}
+.container_wrapper{display:inline-block;width:950px;padding:0 0 15px 0;background:#fff;box-shadow:rgba(0, 0, 0, 0.2) 0 0 8px 0}
+
+/* ASIDE */
+.aside{float:left}
+/* col_1 Main Page*/
+.col_1{width:250px;padding:15px 15px 0 15px}
+
+/* login */
+.aside .login{display:inline-block;width:248px;margin:0 0 15px 0;padding:0 0 15px 0;border:1px solid #e5e5e5;background:#eaeaea}
+.aside .login h2{margin:0;padding:15px;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.aside .login form{margin:0;padding:0 15px 15px 15px}
+.group_username{float:left;width:100%}
+.group_username label{display:block;float:left;padding:0 0 10px 0}
+#login_username{width:210px;margin:0 0 10px 0;font:11px/13px Arial,sans-serif}
+#remember_username{display:inline-block;float:left;width:13px;height:13px;margin:0 8px 0 0;padding:0}
+.group_password{float:right;width:100%;padding:0 0 5px 0}
+.group_password label{display:block;float:left}
+#remember_password{display:inline-block;float:left;width:13px;height:13px;margin:0 8px 0 0;padding:0;font-size:11px}
+#login_password{width:210px;margin:0 0 10px 0;font:11px/13px Arial,sans-serif}
+.login .register{display:inline-block;margin:0 0 0 4px;padding:0 0 0 6px;border-left:1px solid #abadb3}
+#login_submit{height:22px;margin:0 5px 0 0;font:11px/13px Arial,Helvetica,sans-serif;cursor:pointer}
+.group_submit{display:inline-block;width:100%;padding:10px 0 0 0;font:11px/13px Arial,Helvetica,sans-serif}
+
+.login_apply{display:inline-block;width:100%;padding:0;font-family:"Palatino Linotype",Georgia,"Times New Roman",Times,serif;text-align:center}
+a.apply_class span,a.apply_class,a.apply_test,a.apply_test span{position:relative}
+a.apply_class{margin:0 0 5px 0}
+a.apply_class img{position:absolute;left:5px;top:0}
+a.apply_test img{position:absolute;left:5px;top:0}
+
+/* notice */
+.aside .notice{overflow:hidden;position:relative;margin:0 0 15px 0;padding:15px;border:1px solid #e5e5e5;background:#eaeaea;font:12px/13px Arial,Helvetica,sans-serif}
+.aside .notice h2{margin:0;padding:0 0 15px 0;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.aside .notice ul{margin:0;padding:0;list-style:none}
+.aside .notice li{display:inline-block;width:100%}
+.aside .notice ul li a{float:left}
+.aside .notice ul li span{display:inline-block;float:right}
+
+.jcarousel-container{float:left;display:block;position:relative;margin:0;	padding:0}
+.jcarousel-container-vertical{width:100%;height:64px}
+.jcarousel-clip-vertical{height:64px}
+.jcarousel-item{display:block;overflow:hidden;position:relative;height:16px;z-index:1}
+
+#scroll{overflow:hidden;position:absolute;top:8px;right:15px;width:65px;height:30px;margin:0 auto;padding:0}
+#notice-next{cursor:pointer;top:0px}
+#notice-prev{cursor:pointer;outline:0}
+a.jbutton, a.jbutton:link, a.jbutton:visited{display:block;padding:0;height:28px;width:28px;background:transparent url(../images/btn_notices.png) no-repeat}
+a#notice-prev.jbutton, a#prev.jbutton{background-position:left bottom;float:left;height:28px;width:28px}
+a#notice-prev.jbutton:hover, a#prev.jbutton:hover{background-position:right bottom;float:left;height:28px;width:28px}
+a#notice-next.jbutton, a#next.jbutton{background-position:left top;float:right;height:28px;width:28px}
+a#notice-next.jbutton:hover, a#next.jbutton:hover{background-position:right top}
+.notice_list{overflow:hidden;margin:0}
+
+/* share_experience */
+.share_experience{overflow:hidden;position:relative;margin:0 0 15px 0;padding:15px;border:1px solid #e5e5e5;background:#eaeaea}
+.share_experience h2{margin:0;padding:0 0 15px 0;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.share_experience .experience_inner{display:inline-block;width:100%;padding:0}
+.share_experience .experience{float:right;width:145px}
+.share_experience img{float:left;border:1px solid #ccc}
+.share_experience p{margin:0;padding:5px 0 0 0;line-height:16px}
+.share_experience a.more{position:absolute;right:15px;top:15px}
+
+/* english_game */
+.english_game{display:inline-block;position:relative;width:218px;margin:0 0 15px 0;padding:15px;border:1px solid #e5e5e5;background:#eaeaea}
+.english_game h2{margin:0;padding:0 0 15px 0;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.english_game img{float:left;border:1px solid #ccc}
+.english_game p.title{padding:2px 0 10px 0;font-size:15px;color:#1f1f1f}
+.english_game p{display:inline-block;float:left;width:100%;margin:0;padding:0}
+.english_game .game_info{display:inline-block;float:right;width:140px;margin:0;padding:0}
+.english_game a.play{display:inline-block;position:absolute;top:15px;right:15px;height:21px;padding:0 10px;border:1px solid #ccc;line-height:21px;box-shadow:#000 0px 0px 3px 0}
+.english_game_slider{overflow:hidden;position:relative;width:218px;height:63px}
+.english_game_slider ul{display:inline-block;position:relative;left:0;top:0;width:436px;height:63px;margin:0;padding:0;list-style:none}
+.english_game_slider li{display:inline-block;float:left;width:218px;height:63px}
+
+a.prev_game{display:block;position:absolute;left:-15px;top:60px;float:left;width:30px;height:30px;background:url(../images/arrows_games.png) 0 -30px no-repeat;text-indent:-999em;outline:0}
+a.prev_game:hover{background:url(../images/arrows_games.png) 0 0 no-repeat}
+a.next_game{display:block;float:left;position:absolute;right:-15px;top:60px;width:30px;height:30px;background:url(../images/arrows_games.png) -30px -30px no-repeat;text-indent:-999em;outline:0}
+a.next_game:hover{background:url(../images/arrows_games.png) -30px 0 no-repeat}
+
+/* online_poll */
+.online_poll{overflow:hidden;position:relative;margin:0;padding:15px;border:1px solid #e5e5e5;background:#eaeaea}
+.online_poll h2{margin:0 0 10px 0;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.online_poll p{display:inline-block;float:left;width:100%;margin:0;padding:0 0 6px 0}
+.online_poll ul{width:100%;margin:0;padding:0;list-style:none}
+.online_poll label{color:#444}
+#poll_vote{margin:15px 0 0 0;height:25px;line-height:25px;color:#444}
+.online_poll form{margin:0;padding:0}
+
+/* col_1 Loggedin Page */
+.loggedin{overflow:hidden;position:relative;margin:0 0 15px 0;padding:15px;border:1px solid #e5e5e5;background:#eaeaea}
+.loggedin p{margin:0;padding:0}
+.loggedin h2.welcome{margin:0;padding:0 0 8px 0;border-bottom:1px solid #ccc;color:#444;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.loggedin .points{display:inline-block;width:100%;padding:15px 0 5px 0}
+.loggedin .points p{float:left;padding:5px 0}
+.loggedin .points p span{color:#fe8300;font-weight:bold}
+.loggedin a.logout{float:right;text-align:center}
+.loggedin a.logout:hover{color:#fe8300}
+.loggedin a.private{float:right;margin:0 0 0 4px;text-align:center}
+.loggedin a.private:hover{color:#fe8300}
+.loggedin .my_class{margin:0 0 10px 0;padding:15px;background:#fff;border:1px solid #ccc;text-align:center}
+
+/* col_2 */
+.col_2{float:right;position:relative;left:1px;width:160px;margin-right:-192px;padding:55px 15px 0 15px}
+
+/* need_guide */
+.need_guide{padding:0 0 15px 0;border-bottom:1px solid #ccc}
+.need_guide img{border:1px solid #e5e5e5;background:#eaeaea;box-shadow:rgba(0, 0, 0, 0.2) 0 0 2px 0}
+
+/* quick_menu */
+.quick_menu{padding:15px 0 15px 0;border-bottom:1px solid #ccc}
+.quick_menu h2{margin:0 0 15px 0;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.quick_menu ul{margin:0;padding:0;list-style:none}
+.quick_menu li{line-height:16px}
+.quick_menu li a{display:block;margin:0 0 2px 0;padding:0 0 0 12px;border-left:3px solid #ccc}
+.quick_menu li a:hover,.quick_menu li.current a{border-left:3px solid #fe8300;color:#fe8300}
+
+/* banner_1 */
+.banner_1{padding:15px 0 15px 0;border-bottom:1px solid #ccc}
+.banner_1 img{border:1px solid #e5e5e5;background:#eaeaea;box-shadow:rgba(0, 0, 0, 0.2) 0 0 2px 0}
+.banner_1 p{margin:0;padding:13px 0 0 0;line-height:15px;text-align:justify}
+
+/* banner_2 */
+.banner_2{padding:15px 0 0 0}
+.banner_2 img{border:1px solid #e5e5e5;background:#eaeaea;box-shadow:rgba(0, 0, 0, 0.2) 0 0 2px 0}
+.banner_2 p{margin:0;padding:13px 0 0 0;line-height:15px;text-align:justify}
+
+/* CONTENT */
+#content{float:left;width:655px;padding:15px 0 0 0}
+
+/* visual */
+.visual{overflow:hidden;position:relative;width:655px;height:312px;margin:0 0 15px 0;box-shadow:#000 0px 0px 2px 0}
+.visual ul{position:relative;left:0;top:0;width:1485px;margin:0;padding:0;list-style:none}
+.visual li{float:left;width:655px;height:312px}
+.visual li img{padding:0}
+#buttons{position:absolute;bottom:15px;right:15px;float:right;padding:0;box-shadow:#000 0px 0px 8px 0}
+#buttons a{display:block;float:left;width:30px;height:30px;text-indent:-999em;outline:0}
+a.prev{background:url(../images/arrows_visual.jpg) 0 -30px no-repeat}
+a.prev:hover{background:url(../images/arrows_visual.jpg) 0 0 no-repeat}
+a.next{background:url(../images/arrows_visual.jpg) -30px -30px no-repeat}
+a.next:hover{background:url(../images/arrows_visual.jpg) -30px 0 no-repeat}
+
+/* popular_wrap */
+.popular_wrap{display:inline-block;width:100%;padding:0 0 15px 0}
+
+/* popular_class */
+.popular_class{overflow:hidden;float:left;position:relative;width:320px}
+.popular_class h2{margin:0 0 15px 0;padding:0 0 10px 0;border-bottom:1px solid #ccc;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.popular_class .pagination{display:inline-block;position:absolute;right:0;top:2px;width:62px;margin:0;padding:0;list-style:none;font-size:12px;line-height:12px}
+.popular_class .pagination li{float:left;padding:0 10px 0 0}
+.popular_class .pagination li a{display:block;width:9px;height:9px;border:1px solid #dadada}
+.popular_class .pagination li.current a,.popular_class .pagination li a:hover{background:#fe8300;border-color:#fe8300}
+.popular_class .pagination li.last{padding-right:0}
+.popular_class_slider li p{position:absolute;bottom:0;width:390px;margin:0;padding:15px;background:transparent url(../images/bg_transparent.png) repeat left top;color:#fff}
+.popular_class_slider{overflow:hidden;position:relative;width:320px;height:188px}
+.popular_class_slider ul{position:relative;margin:0;padding:0;list-style:none}
+.popular_class_slider li{position:relative;width:320px;height:188px}
+
+/* popular_teacher */
+.popular_teacher{overflow:hidden;float:right;position:relative;width:320px}
+.popular_teacher h2{margin:0 0 15px 0;padding:0 0 10px 0;border-bottom:1px solid #ccc;font:bold italic 16px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+.popular_teacher .pagination{display:inline-block;position:absolute;right:0;top:2px;width:62px;margin:0;padding:0;list-style:none;font-size:12px;line-height:12px}
+.popular_teacher .pagination li{float:left;padding:0 10px 0 0}
+.popular_teacher .pagination li a{display:block;width:9px;height:9px;border:1px solid #dadada}
+.popular_teacher .pagination li.current a,.popular_teacher .pagination li a:hover{background:#fe8300;border-color:#fe8300}
+.popular_teacher .pagination li.last{padding-right:0}
+.popular_teacher img{z-index:1}
+.popular_teacher .teacher_info{position:absolute;bottom:0;width:320px;margin:0;padding:0;background:transparent url(../images/bg_transparent.png) repeat left top;z-index:2}
+.popular_teacher .popular_teacher_slider li p{margin:0;padding:5px 15px;color:#fff}
+.popular_teacher_slider{overflow:hidden;position:relative;width:320px;height:188px}
+.popular_teacher_slider ul{overflow:hidden;position:relative;margin:0;padding:0;list-style:none}
+.popular_teacher_slider li{position:relative;width:320px;height:188px}
+.popular_teacher_slider p.teacher_description{font-size:11px}
+
+/* courses */
+.courses{clear:both;margin:0;padding:0;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-left:1px solid #ccc;list-style:none}
+.courses a.course_accordion{display:block;height:22px;padding:0 15px;border-top:1px solid #ccc;border-bottom:1px solid #fff;background:#f0f0f0;font-weight:bold;line-height:22px;text-decoration:none;color:#444}
+.courses li{overflow:hidden}
+.courses .course{overflow:hidden;display:none;padding:20px 15px}
+.courses li.course_1 .course{display:block}
+.courses p{margin:0;padding:15px 0 0 0;line-height:15px}
+.courses p.title{padding:0 0 0 0;font-size:17px;color:#1f1f1f}
+.courses img{float:left;margin:10px 0 0 5px}
+.courses .course_info{float:right;width:530px}
+.courses a.read_more{margin:15px 0 0 0;box-shadow:rgba(0, 0, 0, 0.296875) 0px 0px 2px 0px}
+
+/* HEADING */
+.heading{}
+.heading_top{background:#222323;padding:15px;border-bottom:2px solid #d2d2d2}
+.heading_top h2{margin:0;padding:0 0 15px 0;font:bold 18px/20px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;color:#ddd}
+.heading_top p{margin:0;padding:0}
+.heading_bottom{overflow:hidden;padding:0 15px;border-bottom:2px solid #808080}
+#content .heading_bottom{padding:0}
+/* breadcrumb */
+.breadcrumb{display:inline-block;float:right;margin:0 auto;padding:13px 0 10px 0;font:11px/15px Arial, sans-serif;color:#646464;list-style:none}
+.breadcrumb li{display:inline;height:15px;margin:0;padding:0 10px 0 4px;background:transparent url(../images/bu_breadcrumb.gif) no-repeat right center}
+.breadcrumb li.first{padding-right:3px;background:none}
+.breadcrumb li a{text-decoration:none}
+h2.title{margin:0;padding:8px 0 10px 0;font:bold italic 18px/22px "Palatino Linotype",Georgia,"Times New Roman",Times,serif}
+
+/* FOOTER */
+#footer{border-top:10px solid #cecdca;background:#dbdad6}
+.footer_inner{display:inline-block;width:950px;margin:0 auto;padding:5px 191px 10px 0;text-align:left}
+.footer_content{float:left;padding:65px 0 0 0}
+.footer_content p{margin:0;padding:0}
+.footer_content a.terms{display:inline-block;padding:0 5px 0 0;color:#444}
+.footer_content a.privacy_policy{display:inline-block;padding:0 0 0 7px;border-left:1px solid #444;color:#444}
+.footer_content p.copyright{padding:5px 0 0 0;color:#444}
+.footer_content p.copyright a{color:#444;text-decoration:underline}
+.footer_logo{display:inline-block;float:right;padding:8px 0 0 0}
+
+/* POP_UP */
+#pop_wrap{position:fixed;left:50%;top:50%;width:311px;border-top:3px solid #ff9000;border-right:1px solid #5b5b5b;border-left:1px solid #5b5b5b;margin:-208px 0 0 -155px;background:#f6f6f6;z-index:100}
+#pop_header{border-top:1px solid #f9c889}
+#pop_container{padding:18px;border-bottom:2px solid #b9b9b9}
+#pop_container table{width:100%;margin:0;padding:0;border-top:2px solid #cdcdcd;border-bottom:1px solid #f0f0f0;text-align:left}
+#pop_container th{margin:0;padding:10px;border:0;background:#7d7d7d;color:#fff}
+#pop_container td{width:32%;padding:7px;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+#pop_container td.last{border-right:1px solid #e6e6e6;text-align:center}
+#pop_container td.last img{margin:0 0 5px 0}
+#pop_container td label{display:block;text-align:left}
+#pop_footer{padding:5px;background:#5b5b5b;text-align:right}
+#pop_footer a.close{margin:0 0 0 5px}
+
+/* registration */
+#content .registration{width:100%;text-align:center;display:inline-block}
+#content .policy_content{width:92%;height:300px;margin:5px 0;padding:0 10px;overflow:auto;border:1px solid #e5e5e5;text-align:left;display:inline-block}
+#content .registration .title{margin:10px 0 0 5px;padding:0;font:bold 14px/18px "Palatino Linotype",Georgia,"Times New Roman",Times,serif;text-align:left}
+#content .accept_box{width:96%;margin:0;padding:0;display:inline-block}
+#content .accept_box p{display:inline-block;margin:0;padding:0}
+#content .accept_box input{vertical-align:-2px}
+#content .verify_name{width:100%;margin:5px 0 0 25px;padding:0;text-align:left;list-style:none;display:inline-block}
+#content .verify_name li{float:left;margin:0 30px 0 0}
+#content .verify_name label{width:40px;display:inline-block}
+#content .verify_name .input_1{width:180px}
+#content .verify_name .input_2{width:100px}
+p.btn_submit input{display:inline-block;position:relative;height:32px;margin:0;padding:0 7px 0 0;background:url(../images/button-gray.png) right bottom no-repeat;font-weight:bold;color:#dfdfdf;border:0;line-height:32px;cursor:pointer}
+p.btn_submit{display:inline-block;margin:0;padding:0 0 0 7px;background:url(../images/button-gray.png) left top no-repeat}
+.registration .required{width:98%;text-align:right}
+.registration .neccesary{margin:0 3px 0 2px;color:#7c2222}
+#content .registration_table{width:98%;margin:5px 0 5px;text-align:left;display:inline-block}
+#content .error_msg{font-size:9px;color:#7c2222;display:inline-block}
+#content .btn_check{display:inline-block;margin:0 5px;padding:2px 10px;border:1px solid #ccc;box-shadow:#000 0px 0px 3px 0}
+#content .registration_table .text_data{height:17px;margin:0;padding:2px 0}
+#content .registration_table .user_pic{width:120px;height:120px;margin:0;padding:0}
+#content .registration .border_top{padding-top:10px;border-top:2px solid #eaeaea}
+
+/* about us */
+.about p{line-height:18px}
+.about .title{font-weight:bold;font-size:13px;font-style:oblique}
+
+/* apply class */
+.applyclass_content table{border-collapse:collapse}
+.applyclass_content {padding:20px 0 190px}
+.applyclass_content .buttons {float:left;width:220px;margin:20px 10px 30px 0}
+.applyclass_content .buttons a {margin-bottom:5px}
+.applyclass_content table {clear:both}
+.applyclass_content table tr{height:35px;border-left:2px solid #eaeaea;border-right:2px solid #eaeaea;border-bottom:0}
+.applyclass_content table td{height:20px;text-align:center;}
+.applyclass_content table input{margin-right:15px;text-align:center;}
+.applyclass_content table select{width:200px;color:#888}
+.applyclass_content table .title td {padding-left:10px;text-align:left !important;border-top:2px solid #eaeaea;font-weight:bold}
+.applyclass_content table .title td span{color:#FF0000}
+.applyclass_content table .last{border-bottom:2px solid #eaeaea}
+.applyclass_content table .class_detail_title{padding-left:20px;text-align:left !important}
+.applyclass_content table .class_detail_info{padding-left:20px !important;text-align:left}
+.applyclass_content table .class_detail_info .text_field3 {margin-bottom:10px;}
+.applyclass_content table .finalprice{font-weight:normal !important}
+.applyclass_content table .finalprice .holder2 {margin-left:5px;}
+.applyclass_content table .desiredtime{padding-left:8px !important}
+.applyclass_content table .desiredtime .holder {float:left;width:90px;}
+.applyclass_content table .desiredtime .holder p {display:inline;margin-right:10px;}
+.applyclass_content table .desiredtime .input2 {width:30px;margin:0 0 0 12px}
+.applyclass_content table td.payment{padding:10px 1px 10px 10px;}
+.applyclass_content .form_table2 td {text-align:left !important;}
+.applyclass_content .form_table2 .nav_button {border-bottom:1px solid #eaeaea;text-align:right !important}
+.applyclass_content .form_table2 .nav_button a {margin:10px 10px 10px 10px;}
+.applyclass_content .apply_class_table th{height:30px;padding:0;background-color:#bbb;color:#444;text-align:center}
+.applyclass_content .apply_class_table .nav_button {text-align:right !important}
+
+.class_detail table tr {border-left:0;border-right:0 !important}
+.class_detail table td {border-width:1px !important}
+.class_detail_final table td span{color:#FF0000;font-weight:bold}
+.class_detail_final table .message{padding-left:20px;text-align:left !important;border-bottom:1px solid #eaeaea;font-weight:bold}
+
+/* class evaluation  level test graph calendar*/
+.mypage_class_evaluation .note{margin:0 10px 0 0}
+.mypage_class_evaluation .calendar{float:left;width:250px;margin:10px 0 20px 0;border:1px solid #DEDEDE}
+.mypage_class_evaluation .btn_apply{background:url("../images/table_headbg.png") repeat-x scroll left bottom #FEFEFE;border:1px solid #999999;border-radius:5px 5px 5px 5px;font:11px "Lucida Sans Unicode","Lucida Grande",Arial;margin-left:5px;padding:0 5px}
+.mypage_class_evaluation .month_selection{display:inline-block;clear:both;width:98%;margin:5px 0 5px}
+.mypage_class_evaluation .month_selection p.prev{float:left;width:20%}
+.mypage_class_evaluation .month_selection p.prev a{float:right}
+.mypage_class_evaluation .month_selection p.month{float:left;width:60%;text-align:center}
+.mypage_class_evaluation .month_selection p.next{float:right;width:20%}
+.mypage_class_evaluation .month_selection p.next a{float:left}
+.mypage_class_evaluation .dates{width:100%}
+.mypage_class_evaluation .dates thead.week{background:url(../images/table_headbg.png) repeat-x scroll left bottom #fff;text-align:center}
+.mypage_class_evaluation .dates thead.week th.sunday{padding:5px 0 5px 0;color:#dc4e22}
+.mypage_class_evaluation .dates td{width:20px;height:20px;text-align:center;border:1px solid #dedede;line-height:20px}
+.mypage_class_evaluation .dates td.inactive:hover{background:#fff}
+.mypage_class_evaluation .dates td:hover, .mypage_class_evaluation .dates td:active{background:#FE8300}
+.mypage_class_evaluation .dates td:hover a, .mypage_class_evaluation .dates td:active a{color:#FFF}
+.graph{float:left;width:375px;height:185px;margin:10px 0 20px 20px;border:1px solid #DEDEDE}
+
+/* graph_container */
+.graph_container{padding:11px 0 0 20px;background:url(../images/graph_bg2.jpg) no-repeat 5px 0}
+.graph_container li{display:inline-block;margin-left:4px;text-align:center}
+.graph_container li.first{margin-left:0}
+.graph_container li .bar_container{display:inline-block;position:relative;width:33px;height:130px}
+.graph_container li .days{position:absolute;bottom:0;left:0;width:100%;background:#f9f9f9;text-align:center}
+.graph_container li  p{font-size:10px;color:#000;font-weight:bold}
+.graph_container li  p.count{color:#f90808 !important}
+.graph_container .type0{background:#FFF}
+.graph_container .type1{background:url(../images/type1.gif) repeat-y scroll 0 0 transparent !important}
+.graph_container .type2{background:url(../images/type2.gif) repeat-y scroll 0 0 transparent !important}
+.graph_container .type3{background:url(../images/type3.gif) repeat-y scroll 0 0 transparent !important}
+.graph_container .type4{background:url(../images/type4.gif) repeat-y scroll 0 0 transparent !important}
+.graph_container .total{width:20px !important;background:url(../images/type5.png) repeat-y scroll 0 0 transparent !important;margin-left:8px !important}
+
+/* message_list_wrap */
+.message_list_wrap span.unread{color:#fe8300}
+#content .message_list_wrap h3.mypage_head_title span{display:inline-block;padding:0 13px 0 0;background:transparent url(../images/bg_title_arrow.gif) no-repeat right center}
+
+/* message_view */
+#content .message_view h3.mypage_head_title span{display:inline-block;padding:0 13px 0 0;background:transparent url(../images/bg_title_arrow.gif) no-repeat right center}
+#content .message_view table.table_2 a.btn_default{margin:0 0 0 15px}
+
+/* message_write_wrap */
+#content .message_write_wrap h3.mypage_head_title span{display:inline-block;padding:0 13px 0 0;background:transparent url(../images/bg_title_arrow.gif) no-repeat right center}
+.message_reciptient{background:#eaeaea;margin:0 0 5px 0;padding:5px 0 5px 10px;border:1px solid #ccc}
+.message_reciptient label{display:inline-block;width:80px;font-weight:bold;color:#444}
+.message_title{background:#eaeaea;margin:0 0 5px 0;padding:5px 0 5px 10px;border:1px solid #ccc}
+.message_title label{display:inline-block;width:80px;font-weight:bold;color:#444}
+.message_title #msg_title{width:545px;margin:0}
+.message_text_area #msg_text_area{width:647px}
+#content .message_write_wrap form{display:inline-block;width:100%;margin:0;padding:0}
+#content .message_write_wrap form #write_submit{margin:0 0 0 10px}
+
+/* MY PAGE - 1:1 Advise */
+#content .table_advise{margin:10px 0 15px}
+#content .table_advise td .status{color:#ff0000}
+
+
+/*FORUM_CONTAINER*/
+#content .front_forum{display:inline-block;width:655px;margin:15px 0 0 0;padding:0}
+/*table_top_forum*/
+#content .front_forum .table_top{display:inline-block;width:655px;margin:20px 0 10px 0;padding:0}
+#content .front_forum .table_btns{float:left}
+#content .front_forum .table_btns a{margin:0 5px 0 0}
+#content .front_forum .show_rows{float:right}
+#content .front_forum  a.new_post_btn{margin:0 0 0 5px}
+/*table_bottom_forum*/
+#content .table_bottom{display:inline-block;width:655px;margin:10px 0 0 0}
+/*forum_topic*/
+.front_forum .forum_topic{display:inline-block;width:655px;margin:15px 0 15px 0;padding:0}
+.front_forum .forum_topic .topic_heading{display:inline-block;width:655px}
+.front_forum .forum_topic .topic_heading p{display:inline-block;float:left;margin:0;padding:0;font-size:12px}
+.front_forum .forum_topic .topic_heading p span.title{display:inline-block;margin:0 5px 0 5px;padding:0;font-size:12px;font-weight:bold}
+.front_forum .forum_topic .topic_heading p a{margin:0 10px 0 5px;font-size:12px;font-weight:bold;font-style:italic}
+.front_forum .forum_topic .topic_heading p.read_count{display:inline-block;float:right;margin:0 10px 0 0;padding:0;font-size:12px}
+.front_forum .forum_topic .topic_heading p.read_count a{display:inline-block;margin:0 0 0 5px;padding:0}
+.front_forum .forum_topic .topic_heading p.like_count{display:inline-block;float:right;margin:0;padding:0}
+.front_forum .forum_topic .topic_heading p.like_count a{display:inline-block;margin:0 0 0 5px;padding:0}
+.front_forum .forum_topic .topic_article{display:inline-block;width:635px;margin:10px 0 10px 0;padding:10px;border:2px solid #eaeaea;border-width:2px 0 2px 0}
+.front_forum .forum_topic .topic_article p{display:inline-block;width:100%;margin:0;padding:0;line-height:13px;text-align:justify}
+.front_forum .forum_topic .topic_button{display:inline-block;width:655px;margin:0 5px 0 0;padding:0}
+.front_forum .forum_topic .topic_button a{float:right;margin:0 5px 0 0;font-weight:bold;text-transform:uppercase}
+/*forum_thread*/
+.front_forum  ul.forum_thread{display:inline-block;width:655px;margin:0;padding:0;list-style:none}
+.front_forum  ul.forum_thread li{display:inline-block;float:left;clear:left;width:655px;margin-bottom:5px}
+.front_forum  ul.forum_thread li .individual_posts{display:inline-block;width:655px;margin:0;padding:0}
+.front_forum  ul.forum_thread li .individual_posts .post_heading{display:inline-block;width:655px;height:30px;background:url(../images/forum_bg.png) repeat-x}
+.front_forum  ul.forum_thread li .individual_posts .post_heading p{display:inline-block;float:left;margin:10px 0 0 10px;padding:0;font-size:11px;color:#fff !important}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container{width:655px;margin:0;padding:0}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.user_info{border:2px solid #e5e5e5;border-width:0 2px 2px 2px}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.user_info p.name{display:inline-block;float:left;width:156px;margin:5px 0 5px 0;padding:0;text-align:center}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.user_info p.name a{font-weight:bold}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.user_info p.member{display:inlne-block;float:left;clear:both;width:156px;margin:0 0 5px;padding:0;font-style:italic;text-align:center}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.user_info img{float:left;clear:both;height:80px;margin:0 0 5px 40px}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.post_content{padding:5px;border:2px solid #e5e5e5;border-width:0 2px 2px 0}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.post_content p{display:inline-block;width:100%;margin:0;padding:0;line-height:13px}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.post_content .quote_reply{display:inline-block;width:90%;padding:0 0 10px 30px;background:url(../images/quote.png) no-repeat left top}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.post_content .quote_reply .quote{display:inline-block;width:98%;padding:5px;border:1px solid #646464;background:#e5e5e5}
+.front_forum  ul.forum_thread li .individual_posts table.front_post_container td.post_content .quote_reply .quote p{font-style:italic}
+.front_forum  ul.forum_thread li .individual_posts .post_btns{display:inline-block;width:641px;padding:5px;border:2px solid #e5e5e5;border-width:0 2px 2px 2px}
+.front_forum  ul.forum_thread li .individual_posts .post_btns a{float:right;margin:0 0 0 5px;text-transform:capitalize}
+/*forum_thread_add_post*/
+.front_forum  .add_post{display:inline-block;width:655px;margin:10px 0 0 0;padding:5px 0 5px 0}
+/*forum_add_article*/
+.front_forum  .add_article{display:inline-block;width:655px;margin:10px 0 0 0;padding:5px 0 5px 0}

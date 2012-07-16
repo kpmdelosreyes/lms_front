@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* reset */
+body,th,td,textarea,h1,h2,h3,h4,h5,h6,p,strong,em,span,a,input,label {font-size:11px;font-family:Verdana, Tahoma, Sans-serif}
+html, body {margin:0;height:0;height:100%}
+/* wrap */
+#wrap {position:relative;width:100%;min-height:100%;margin:0;padding:0;display:inline-block} 
+#wrap {_width:102%} /* quirks specific */
+
+/* common */
+.highlight {color:#ff7800}
+.hidden {display:none}
+.center {text-align:center}
+.wrap {display:inline-block;position:relative;width:950px;margin:0 auto;padding:0;text-align:left}
+.first {margin:0 !important;padding:0 !important;border:0 !important;background:none !important}

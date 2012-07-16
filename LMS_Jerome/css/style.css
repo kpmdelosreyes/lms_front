@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object, textarea, select, button, table, span {padding: 0;margin: 0; }
+ol,  ul, li {list-style: none}
+img,input {border:0}
+body,html{margin:0;padding:0}
+body{width:100%;background: #FFF}
+
+#header_wrap {width:100%;background:#2c2a29}
+#header {width:950px;margin:0 auto;overflow:hidden}
+#header h1 {float:left;display:inline-block;margin:32px 0 0 0}
+.gnb {float:right;margin:22px 0 0 0}
+.gnb li {float:left;padding:0 6px;background: url(../images/gnb_sep.jpg) no-repeat 0 3px}
+.gnb li a{display:block;color:#ffffff;font-size:12px;font-family:Tahoma;text-decoration:none}
+.gnb li.first {padding: 0 6px 0 0;background: none}
+.gnb li a:hover ,.gnb li.current a {text-decoration:underline}
+
+.mnb {float:right;width:600px;margin-right:-10px;padding:32px 0 0 0;}
+.mnb li {float:left;width:98px;height:52px;border-left:1px solid #696969;text-align:center}
+.mnb li a {display:block;height:35px;padding:17px 0 0 0;background:#ffffff;color:#373737;font-weight:bold;font-size:12px;font-family:Tahoma;text-transform:uppercase;text-decoration:none}
+.mnb li a span {display:block;margin:-3px 0 0 0}
+.mnb li a:hover , .mnb li.current a{background: url(../images/mnb_hover.jpg) repeat-x 0 0;color:#FFF}
+.mnb li.first {border:0}
+.mnb li.first a, .mnb li.linebreak a {height:40px;padding:12px 0 0 0}
+
+#visual_wrap {width:100%;background: url(../images/visual_wrap_bg.jpg) no-repeat center 0}
+#visual {width:950px;margin:0 auto;padding:27px 0 36px 0;overflow:hidden;background: url(../images/visual_bg.png) no-repeat 0 bottom}
+#visual .slider {float:right}
+
+.login {float:left;width:343px;height:373px;padding:20px 10px 0 10px;background:#dadada}
+.login .textbox {width:321px;height:35px;margin:0 0 6px 0;padding:0 0 0 18px;border:1px solid #afafaf;background:#FFF;color:#656565;font-weight:bold;font-size:14px;font-family:Tahoma;line-height:45px;outline:0}
+.login label {display:inline-block;margin:-2px 0 0 10px;color:#7b7b7b;font-size:12px;font-family:Tahoma;vertical-align:top}
+.login .holder {float:left;width:106px;margin:3px 0 0 6px}
+.login .btn_login {display:inline-block;width:124px;height:43px;margin:30px 0 0 0;background:#2c2a29;border:1px solid #919191;color:#FFF;font-size:14px;font-family:Tahoma;text-transform:uppercase;clear:both;line-height:43px;cursor:pointer}
+.login .links {margin:25px 0 60px 0}
+.login .links a {display:inline-block;padding:0 15px 0 15px;color:#7b7b7b;font-size:12px;font-family:Tahoma;text-transform:uppercase;text-decoration:none;border-left:1px solid #939393}
+.login .links a:hover, .login .links a.active {color:#000}
+.login .links a.first {border:0}
+
+
+/* #expandable buttons */
+.btn  {float:left;height:47px;padding:0 0 0 33px;background: url(../images/btn.png) no-repeat 0 0;text-decoration:none;letter-spacing:0}
+.btn span {float:left;padding:0 31px 0 0;background: url(../images/btn.png) no-repeat right 0;color:#fff;font-size:12px;font-family:Tahoma;line-height:47px;text-transform:uppercase;}
+
+.btn_2  {float:right;height:47px;margin-left:9px;padding:0 0 0 17px;background: url(../images/btn.png) no-repeat 0 0;text-decoration:none;letter-spacing:0}
+.btn_2 span {float:right;height:47px;padding:0 16px 0 0;background: url(../images/btn.png) no-repeat right 0;color:#fff;font-size:12px;font-family:Tahoma;line-height:47px;text-transform:uppercase}
+
+.btn_3  {float:left;height:31px;margin:0 0 0 8px;padding:0 0 0 22px;background: url(../images/btn_2.png) no-repeat 0 0;text-decoration:none}
+.btn_3 span {float:left;height:31px;padding:0 25px 0 0;background: url(../images/btn_2.png) no-repeat right 0;color:#fff;font-size:12px;font-family:Tahoma;line-height:31px}
+
+.btn_4  {float:left;height:31px;margin:8px 0 0 0;padding:0 0 0 10px;background: url(../images/btn_3.png) no-repeat 0 0;text-decoration:none}
+.btn_4 span {float:left;height:31px;padding:0 31px 0 0;background: url(../images/btn_3.png) no-repeat right 0;color:#fff;font-size:12px;font-family:Tahoma;line-height:28px;text-transform:uppercase}
+
+.btn_5  {float:left;height:38px;margin:29px 0 0 0;padding:0 0 0 20px;background: url(../images/btn_5.png) no-repeat 0 0;text-decoration:none}
+.btn_5 span {float:left;height:38px;padding:0 20px 0 0;background: url(../images/btn_5.png) no-repeat right 0;color:#fff;font-size:12px;font-family:Tahoma;line-height:38px}
+
+
+#container {width:100%;overflow:hidden}
+#content {width:950px;margin:0 auto;padding:32px 0 0 0}
+#content h3 {color:#373737;font-weight:bold;font-size:20px;font-family: Georgia,Arial,sans-serif;text-transform:uppercase}
+#content h3 span {color:#e59101;font-weight:normal;font-size:15px;font-family:Tahoma;text-transform:none;font-style:oblique}
+
+.aside {float:left;width:232px;padding:0 0 83px 0}
+
+.aside .blog_list {margin:25px 0 30px 0;padding:0 20px 15px 0;border-bottom:2px dotted #dddddd}
+.aside .blog_list li a {display:block;width:202px;margin:0 0 7px 0;padding:0 0 0 11px;background: url(../images/bullet_01.png) no-repeat 0 6px;color:#a8a8a8;font-size:12px;font-family:Tahoma;text-decoration:none}
+.aside .blog_list li a .date {float:right;}
+.aside .blog_list li a:hover{text-decoration:none;color:#767676}
+
+.aside .section1 {display:inline-block;margin:30px 0 18px 0;padding:0 0 15px 0;border-bottom:2px dotted #dddddd;overflow:hidden}
+.aside .section1 li {display:block;float:left;width:100%;margin:0 0 14px 0}
+.aside .section1 img {float:left;margin:0 4px 0 0}
+.aside .section1 a {display:block;margin:10px 0 0 0;color:#e59101;font-weight:bold;font-size:12px;font-family:Tahoma;text-decoration:underline}
+.aside .section1 p {color:#a8a8a8;font-size:12px;font-family:Tahoma;line-height:18px}
+
+.aside .game {display:inline-block;margin:15px 0 0 0;padding-bottom:15px;border-bottom:2px dotted #dddddd;clear:both}
+.aside .game img {float:left;margin-left:5px}
+
+.aside .section2 {display:inline-block;width:227px;margin:22px 0 0 5px;padding:25px 0 6px 0;background:#f3f1f1;border-radius:8px}
+.aside .section2 p {color:#606060;font-size:14px;font-family:Tahoma;text-align:center}
+.poll_list {display:inline-block;margin:20px 0 8px 0}
+.poll_list li{float:left;width:200px;height:29px;margin:0 0 4px 5px;padding:8px 0 0 15px;background:url(../images/poll_list_bg.png) no-repeat 0 0}
+.poll_list label {display:inline-block;margin:2px 0 0 11px;color:#8e8e8e;font-size:12px;font-family:Tahoma;vertical-align:top}
+
+.content {float:left;width:452px;margin:0 18px 0 16px}
+.content .article {float:left;width:226px;margin:0 0 45px 0}
+.content .article img {margin:28px 0 0 0}
+.content .article .title {float:left;width:120px;margin:19px 0 0 17px;color:#2e2e2e;font-size:14px;font-family:Tahoma}
+.content .article .title span {display:block;clear:both;color:#6a6a6a;font-style:oblique}
+.content .article a {float:left;width:55px;height:16px;margin:33px 0 0 0;background: url(../images/bullet_02.png) no-repeat right 0;color:#999999;font-size:12px;font-style:oblique;text-transform:uppercase;text-decoration:none}
+
+.content .article_2 {float:left;width:219px;margin:40px 0 5px 0;padding-left:7px}
+.content .article_2  img {float:left;margin-right:10px;}
+.content .article_2 p {margin-left:3px;color:#585858;font-size:12px;font-family:Tahoma;word-spacing:-1px}
+.content .article_2 .title {display:block;margin-bottom:15px;color:#585858;font-size:16px;font-family:Tahoma;clear:both}
+
+
+.accordion li {display:block;float:left;width:452px;background:url(../images/bg_accordion.png) no-repeat 0 0}
+.accordion li .title {height:44px;padding: 0 0 0 9px;text-decoration:none}
+.accordion li .title span {padding-left:29px;background:url(../images/bullet_03.png) no-repeat 0 4px;color:#fff;font-size:14px;font-family:Tahoma;line-height:44px}
+.accordion li .holder img {float:left;margin-right:35px}
+.accordion .info .highlight {color:#535353;font-style:oblique;font-size:14px;font-family:Tahoma}
+.accordion .info p {color:#989898;font-size:12px;font-family:Tahoma;line-height:18px}
+.accordion .info {float:left;width:225px;margin:10px 0 0 0}
+
+.widget {float:left;width:231px}
+.widget .guide {width:231px;text-align:center;overflow:hidden;padding-bottom:45px;border-bottom:2px dotted #dddddd;}
+.widget .guide .title {margin:0;color:#373737;font-size:16px;font-family:Tahoma;text-align:center;text-transform:uppercase}
+.widget .guide p {margin: 0 0 21px 7px;color:#989898;font-size:12px;font-family:Tahoma;line-height:18px;text-align:left}
+.widget .guide img {margin:18px 0 25px 0}
+
+.advertisement {padding-top:35px;border-top:2px dotted #dddddd;}
+.advertisement img {float:left;margin:10px 0 8px 0;clear:both;overflow:hidden}
+.advertisement a {display:block}
+
+.quickmenu {margin:55px 0 45px 3px;}
+.quickmenu ul li {padding:15px 0 15px;border-bottom:1px solid #dddddd}
+.quickmenu ul li a {display:block;padding-left:34px;background: url(../images/bullet_04.png) no-repeat 0 6px;color:#373737;font-size:14px;font-family:Tahoma;text-decoration:none}
+.quickmenu ul li a:hover, .quickmenu ul li.current a {color:#efba61;font-weight:bold}
+.quickmenu ul li.last {border:0;padding:15px 0 0 0}
+
+#footer_wrap {width:100%;height:147px;background:#2c2a29;border-top:1px solid #d5d4d4}
+#footer {width:950px;margin:0 auto}
+#footer img {float:left;margin:35px 0 0 0}
+#footer .copyright {float:right;margin:68px 0 0 0;color:#cbcbcb;font-size:14px;font-family:Tahoma;font-style:oblique}
+#footer .copyright a{color:#cbcbcb;font-size:14px;font-family:Tahoma;text-decoration:none}
+#footer .copyright a:hover {text-decoration:underline}

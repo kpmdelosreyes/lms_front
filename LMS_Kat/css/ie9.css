@@ -1,0 +1,8 @@
+/** header **/
+#header .gnb a {letter-spacing:0}
+#header .gnb .login {height:17px;padding:3px 0 0}
+/** container **/
+#container .aside form .login {width:58px;margin:2px 2px 0 0;padding:3px 0 5px}
+#container .aside form .checkbox {margin-bottom:7px}
+#container .aside form .checkbox input {width:12px;height:12px;border:0 !important}
+#container #content .courses ul li .category {padding:3px 0 3px 15px}
